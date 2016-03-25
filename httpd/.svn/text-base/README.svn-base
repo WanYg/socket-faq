@@ -1,8 +1,0 @@
-This is a Mini http server with Multithreading and epoll achieve.
-Of course this is just what the ready-made output. Don't consider sending data processing and analysis of the request.
-
-Compile
-gcc -o httpd httpd.c -lpthread
-
-TEST
-ab -c 50 -n 10000 http://127.0.0.1:8888/
